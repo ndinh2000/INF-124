@@ -1,0 +1,37 @@
+#top-nav-bar {
+    text-align: center;
+    font-size: 25px;
+    background-color: #454545;
+    color: white;
+    padding: 20px;
+}
+
+body {
+    margin: 0;
+}
+
+.row {
+    text-align: center;
+    padding: 20px;
+}
+
+.col {
+    width: 23%;
+    float: left;
+}
+
+img {
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+    .col {
+        width: 45%;
+    }
+}
+
+@media (max-width: 600px) {
+    .col {
+        width: 90%;
+    }
+}
