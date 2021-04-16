@@ -1,10 +1,57 @@
+/* #header{
+  text-align: center;
+  font-size: 1em;
+} */
+#header img{
+  margin:10px auto 20px;
+  width:auto;
+  display: block;
+}
 #top-nav-bar {
+  text-align: center;
+  font-size: 15px;
+}
+
+#top-nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(95, 93, 93);
+}
+
+#top-nav-bar li {
+  float: left;
+}
+
+#top-nav-bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+  /* Change the link color to #111 (black) on hover */
+#top-nav-bar li a:hover {
+  background-color: rgb(95, 139, 235);
+}
+
+#top-nav-bar .active {
+  background-color: rgb(95, 139, 235);
+}
+
+.formButton{
+  text-align: center;
+}
+
+/* #top-nav-bar {
     text-align: center;
     font-size: 25px;
     background-color: #454545;
     color: white;
     padding: 20px;
-}
+} */
 
 * {
   box-sizing: border-box;
