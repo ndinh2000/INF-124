@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="../PA 1/myStyle.css" type="text/css">
+    <script>
+        function CheckRegistration() {
+            this.preventDefault();
+            var a = document.OrderForm;
+            console.log(a);
+        }
+    </script>
+</head>
+<body>
+    <div id="top-nav-bar">
+        <table>
+            <td><a href="../PA 1/index.html"><h3> Home </h3></a></td>
+            <td><a href="../PA 1/dogs.html"><h3> Dogs </h3></a></td>
+            <td><a href="../PA 1/cats.html"><h3> Cats </h3></a></td>
+            <td><a href="../PA 1/contact.html"><h3> Contact </h3></a></td>
+        </table>
+    </div>
+
+    <div id="main">
+
+        <div class="row" style="text-align: left">
+            <div class="col-3 col-s-5">
+                <img src="../PA 1/images/DogImages/dog9.jfif">
+            </div>
+            <div class="col-3 col-s-5" style="text-align: left; padding-top: 35px;">
+                <p>Name: Sky</p>
+                <p>Age: 4</p>
+                <p>Gender: Female</p>
+                <p>Price: $10000.00</p>
+                <p>ID: A1713790</p>
+                <p>Sky's Message: </p>
+                <p>&emsp; I am a sporty dog who would be the perfect outgoing companion
+                     for an active family. I would love a family that is over the age of 
+                     12 who are committed to training and building the structure and routine 
+                     that I need to succeed.
+
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-s-12" style="text-align: left">
+                <form action="" name="OrderForm" onSubmit="return (CheckRegistration())">
+                    <label for="fname">First Name: </label><br>
+                    <input type="text" id="fname" name="fname" required><br>
+                    <label for="lname">Last Name: </label><br>
+                    <input type="text" id="lname" name="lname" required><br>
+                    <label for="prodict-id">Pet ID: </label><br>
+                    <input type="text" id="prodict-id" name="prodict-id" required><br>
+                    <label for="qty">Quantiy: </label><br>
+                    <input type="number" id="qty" name="qty" required><br>
+                    <label for="phone">Phone Number: </label><br>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="123-456-7890"><br>
+                    <label for="credit-card">Credit Card Number: </label><br>
+                    <input type="number" id="credit-card" name="credit-card" required><br>
+                    <label for="expiration-date">Expiration Date: </label><br>
+                    <input type="datetime" id="expiration-date" name="expiration-date" pattern="[0-9]{2}/[0-9]{4}" placeholder="MM/YYYY" required><br>
+                    <label for="address">Shipping Address: </label><br>
+                    <input type="text" id="address" name="address" required><br>
+                    <label for="state">State: </label><br>
+                    <input type="text" id="state" name="state" required><br>
+                    <label for="zip">Zip Code: </label><br>
+                    <input type="number" id="zip" name="zip" required><br>
+                    <label for="shipping-method">Shipping Method: </label><br>
+                    <select name="shipping-method" id="shipping-method">
+                        <option value="overnight">First Overnight</option>
+                        <option value="2days">2 days</option>
+                        <option value="ground">Ground</option>
+                    </select><br/>
+                <input type="submit" value="Submit Order">
+                </form>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
