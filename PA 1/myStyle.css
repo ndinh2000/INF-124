@@ -41,6 +41,10 @@
   background-color: rgb(95, 139, 235);
 }
 
+hr.solid {
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
 .formButton{
   text-align: center;
 }
