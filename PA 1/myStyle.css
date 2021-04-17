@@ -45,6 +45,20 @@
   text-align: center;
 }
 
+.profile{
+  overflow: hidden;
+  margin:0 auto;
+}
+
+.profile img{
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+
+.profile:hover img{
+  transform:scale(1.5)
+}
+
 /* #top-nav-bar {
     text-align: center;
     font-size: 25px;
