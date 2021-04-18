@@ -42,7 +42,8 @@
 }
 
 hr.solid {
-  border-bottom: 1px solid rgb(0, 0, 0);
+  /* border-bottom: 1px solid rgb(0, 0, 0); */
+  width: 344px;
 }
 
 .formButton{
@@ -52,13 +53,24 @@ hr.solid {
 .featuredPets p{
   font-size: 18px;
   width: 344px;
-  padding-left: 70px;
+  /* padding-left: 70px; */
 }
 
 .featuredPets img{
   width: 344px;
   height: 258px;
+} 
+
+.featuredPets{
+  text-align: center;
 }
+
+/* .featuredPets{
+  height: 400px;
+  overflow: hidden;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  
+} */
 
 .profile{
   overflow: hidden;
@@ -78,14 +90,34 @@ input[type=number]{
   width: 80%;
 }
 
-input{
+input[type=text]{
   width: 80%;
 }
 
-input[type=submit]{
+input[type=tel]{
+  width: 80%;
+}
+
+/* select {
+  width: 40%;
+} */
+
+#shipping-method{
+  width: 80%;
+}
+
+#expireMM{
+  width: 40%;
+}
+
+#expireYY{
+  width: 40%;
+}
+
+/* input[type=submit]{
   width:8%;
   height:2em
-}
+} */
 
 fieldset{
   margin-left: 30px;
