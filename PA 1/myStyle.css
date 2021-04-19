@@ -169,6 +169,10 @@ img {
     width: 100%;
 }
 
+.img-container {
+  height: 300px;
+}
+
 /* .col {
     width: 23%;
     float: left;
@@ -216,6 +220,7 @@ img {
   .col-s-10 {width: 83.33%;}
   .col-s-11 {width: 91.66%;}
   .col-s-12 {width: 100%;}
+  /* .img-container { height: 600px; } */
 }
 @media only screen and (min-width: 0px) {
   /* For desktop: */
@@ -237,6 +242,7 @@ img {
 @media only screen and (min-width: 754px) {
   /* For desktop: */
   .col-3 {width: 50%;}
+  .img-container { height: 600px; }
 }
 
 @media only screen and (min-width: 1100px) {
