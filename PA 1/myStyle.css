@@ -1,7 +1,4 @@
-/* #header{
-  text-align: center;
-  font-size: 1em;
-} */
+
 #header img{
   margin:10px auto 20px;
   width:auto;
@@ -41,10 +38,6 @@
   background-color: rgb(95, 139, 235);
 }
 
-hr.solid {
-  /* border-bottom: 1px solid rgb(0, 0, 0); */
-  /* width: 344px; */
-}
 
 .formButton{
   text-align: center;
@@ -55,16 +48,11 @@ hr.solid {
   height: 50px;
   padding-left: 30px;
   padding-right: 30px;
-  /* width: 344px;
-  padding-left: 70px; */
 }
 
 .featuredPets img{
-  /* width: 344px;
-  height: 258px; */
   max-width: 100%;
   max-height: 100%;
-  /* max-height: 275px; */
   object-fit: contain;
 } 
 
@@ -72,12 +60,6 @@ hr.solid {
   text-align: center;
 }
 
-/* .featuredPets{
-  height: 400px;
-  overflow: hidden;
-  border-bottom: 1px solid rgb(0, 0, 0);
-  
-} */
 
 .profile{
   overflow: hidden;
@@ -105,9 +87,6 @@ input[type=tel]{
   width: 80%;
 }
 
-/* select {
-  width: 40%;
-} */
 
 #shipping-method{
   width: 80%;
@@ -120,11 +99,6 @@ input[type=tel]{
 #expireYY{
   width: 40%;
 }
-
-/* input[type=submit]{
-  width:8%;
-  height:2em
-} */
 
 fieldset{
   margin-left: 30px;
@@ -147,13 +121,6 @@ legend{
   text-align: center;
 }
 
-/* #top-nav-bar {
-    text-align: center;
-    font-size: 25px;
-    background-color: #454545;
-    color: white;
-    padding: 20px;
-} */
 
 * {
   box-sizing: border-box;
@@ -177,22 +144,6 @@ img {
   height: 300px;
 }
 
-/* .col {
-    width: 23%;
-    float: left;
-}
-
-@media (max-width: 800px) {
-    .col {
-        width: 45%;
-    }
-}
-
-@media (max-width: 600px) {
-    .col {
-        width: 90%;
-    }
-} */
 
 .row::after {
   content: "";
