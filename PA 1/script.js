@@ -76,9 +76,6 @@ function CheckRegistration() {
         alert ("Invalid Zip Code");
         return (false);
     }
-    // console.log('after zip')
-
-    // console.log('emailing')
 
     var body = `Hello Pet Shop,%0D%0A%0D%0A`
                 + `I'd like to place an order, the details are below:%0D%0A`
@@ -94,19 +91,6 @@ function CheckRegistration() {
                 + `Shipping Method: ${method}%0D%0A%0D%0A`
                 + `Thank you%0D%0A`;
     var link = "mailto:thepetshop@mail.com?subject=Order%20Form&body=" + body;
-    // var link = "mailto:name1@rapidtables.com?cc=name2@rapidtables.com&bcc=name3@rapidtables.com&subject=The%20subject%20of%20the%20email&body=The%20body%20of%20the%20email"
-    //         + `I'd like to place an order, the details are below:\n`
-    //         + `Name: ${fname} ${lname}\n`
-    //         + `Pet ID: ${petID}\n`
-    //         + `Quantity: ${qty}\n`
-    //         + `Card Info: ${card}\n`
-    //         + `Shipping Address:\n`
-    //         + `     ${address}\n`
-    //         + `     ${state}, ${zip}\n`
-    //         + `Shipping Method: ${method}\n\n`
-    //         + `Thank you\n`;
-
-    // var link = "mailto:name1@rapidtables.com?cc=name2@rapidtables.com&bcc=name3@rapidtables.com&subject=The%20subject%20of%20the%20email&body=The%20body%20of%20the%20email"
     window.location.href = link;
     return (false);
 }
